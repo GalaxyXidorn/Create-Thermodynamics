@@ -23,7 +23,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-
+//note to self: delete half the content
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Thermodynamics.MOD_ID) public class Thermodynamics {
     public static final String MOD_ID = "thermodynamics";
