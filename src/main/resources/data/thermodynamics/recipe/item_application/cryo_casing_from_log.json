@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "c:stripped_logs"
+    },
+    {
+      "item": "thermodynamics:cryonite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "thermodynamics:cryo_casing"
+    }
+  ]
+}

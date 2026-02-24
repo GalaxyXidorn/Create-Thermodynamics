@@ -1,10 +1,9 @@
 {
   "values": [
-    "cryofluid:cryonite_block",
-    "cryofluid:cobbled_frozen_deepslate",
-    "cryofluid:frozen_deepslate",
-    "cryofluid:cryonite_ore",
-    "cryofluid:polished_frozen_deepslate",
-    "cryofluid:cryo_casing"
+    "thermodynamics:cryonite_block",
+    "thermodynamics:cobbled_frozen_deepslate",
+    "thermodynamics:frozen_deepslate",
+    "thermodynamics:cryonite_ore",
+    "thermodynamics:polished_frozen_deepslate"
   ]
 }

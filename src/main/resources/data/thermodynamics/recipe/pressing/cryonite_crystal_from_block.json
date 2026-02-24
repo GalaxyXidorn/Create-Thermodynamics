@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermodynamics:cryonite_block"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "id": "thermodynamics:cryonite_crystal"
+    }
+  ]
+}
