@@ -33,6 +33,5 @@ public class DataGenerators {
 
         generator.addProvider(e.includeServer(), new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
 
-        generator.addProvider(e.includeServer(), new ModDatapackProvider(packOutput, lookupProvider));
     }
 }

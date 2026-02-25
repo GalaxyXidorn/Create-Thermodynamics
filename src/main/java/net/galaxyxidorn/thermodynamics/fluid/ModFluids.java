@@ -14,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(Registries.FLUID, Thermodynamics.MOD_ID);
 
-    public static final DeferredHolder<Fluid, FlowingFluid> CRYOFLUID = FLUIDS.register("thermodynamics", () -> new BaseFlowingFluid.Source(ModFluids.CRYOFLUID_PROPERTIES));
+    public static final DeferredHolder<Fluid, FlowingFluid> CRYOFLUID = FLUIDS.register("cryofluid", () -> new BaseFlowingFluid.Source(ModFluids.CRYOFLUID_PROPERTIES));
     public static final DeferredHolder<Fluid, FlowingFluid> CRYOFLUID_FLOWING = FLUIDS.register("cryofluid_flowing", () -> new BaseFlowingFluid.Flowing(ModFluids.CRYOFLUID_PROPERTIES));
 
     public static final BaseFlowingFluid.Properties CRYOFLUID_PROPERTIES = new BaseFlowingFluid.Properties(ModFluidTypes.CRYOFLUID_TYPE, CRYOFLUID, CRYOFLUID_FLOWING)

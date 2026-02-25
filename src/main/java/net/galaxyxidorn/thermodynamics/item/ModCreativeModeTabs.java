@@ -23,7 +23,7 @@ public class ModCreativeModeTabs {
     private static final Set<DeferredItem<? extends Item>> EXCLUDED_ITEMS = Set.of();
 
     public static final Supplier<CreativeModeTab> CREATE_THERMALEXPANSION_TAB = CREATE_MODE_TAB.register("create_thermalexpansion_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRYONITECRYSTAL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRYONITE_ALLOY.get()))
                     .title(Component.translatable("creativetab.thermodynamics.create_cryofluid"))
                     .displayItems((parameters, output) ->{
                         ModItems.ITEMS.getEntries().forEach(item -> {

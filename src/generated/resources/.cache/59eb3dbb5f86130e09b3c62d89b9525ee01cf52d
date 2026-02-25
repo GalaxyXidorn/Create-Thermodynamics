@@ -1,6 +1,2 @@
-// 1.21.1	2026-02-24T19:48:49.9846255	Loot Tables
-efa0aa97c5036eb9264cfe9773a75224c85d52df data/thermodynamics/loot_table/blocks/cobbled_frozen_deepslate.json
+// 1.21.1	2026-02-25T20:05:21.0009814	Loot Tables
 08b0925650a23def50dbbe7eb206e53d364b5780 data/thermodynamics/loot_table/blocks/cryonite_block.json
-089678253457f162b1a64f6382e4cda60f6b0615 data/thermodynamics/loot_table/blocks/cryonite_ore.json
-76f94abe60d588a7c67b47afd82e5e2880b996b5 data/thermodynamics/loot_table/blocks/frozen_deepslate.json
-43e17f8da34d64dba0884ace9350202b3df58134 data/thermodynamics/loot_table/blocks/polished_frozen_deepslate.json

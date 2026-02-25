@@ -15,7 +15,7 @@ import static net.galaxyxidorn.thermodynamics.Thermodynamics.MOD_ID;
 public class ModFluidTypes {
     public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, MOD_ID);
 
-    public static final ResourceLocation CRYOFLUID = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/thermodynamics"),
+    public static final ResourceLocation CRYOFLUID = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/cryofluid"),
             CRYOFLUID_FLOWING = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/cryofluid_flow");
     public static final DeferredHolder<FluidType, FluidType> CRYOFLUID_TYPE = FLUID_TYPES.register("cryofluid_type",
             () -> new FluidType(FluidType.Properties.create()

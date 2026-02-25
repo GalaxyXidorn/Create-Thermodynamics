@@ -16,6 +16,7 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.neoforged.fml.common.Mod;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Set;
@@ -29,10 +30,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         //dropSelf(ModBlocks.CRYO_CASING.get());
         dropSelf(ModBlocks.CRYONITE_BLOCK.get());
-        dropSelf(ModBlocks.COBBLED_FROZEN_DEEPSLATE.get());
-        dropSelf(ModBlocks.POLISHED_FROZEN_DEEPSLATE.get());
-        add(ModBlocks.FROZEN_DEEPSLATE.get(), (block) -> createSingleItemTableWithSilkTouch(block, ModBlocks.COBBLED_FROZEN_DEEPSLATE.get()));
-        add(ModBlocks.CRYONITE_ORE.get(), (block) -> createMultipleOreDrops(block, ModItems.CRYONITECRYSTAL.get(), 1, 2));
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block block, Item item, float minDrops, float maxDrops) {

@@ -12,8 +12,8 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Thermodynamics.MOD_ID);
 
     public static final DeferredItem<Item>
-            CRYONITECRYSTAL = simpleItem("cryonite_crystal"),
-            CRYODUST = simpleItem("cryodust"),
+            //CRYONITECRYSTAL = simpleItem("cryonite_crystal"),
+            //CRYODUST = simpleItem("cryodust"),
             CRYONITE_ALLOY = simpleItem("cryonite_alloy");
     public static final DeferredItem<BucketItem> CRYOFLUID_BUCKET = ITEMS.register("cryofluid_bucket",
             () -> new BucketItem(ModFluids.CRYOFLUID.get(), new Item.Properties()));

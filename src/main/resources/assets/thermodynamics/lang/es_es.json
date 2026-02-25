@@ -1,14 +1,7 @@
 {
-  "item.thermodynamics.cryonite_crystal": "Cristal de Crionita",
-  "item.thermodynamics.cryodust": "Polvo de Crio",
   "item.thermodynamics.cryofluid_bucket": "Cubo con Criofluido",
 
   "block.thermodynamics.cryonite_block": "Bloque de Crionita",
-  "block.thermodynamics.frozen_deepslate": "Pizarra Congelada Profunda",
-  "block.thermodynamics.cobbled_frozen_deepslate": "Pizarra Congeleda Profunda Rocosa",
-  "block.thermodynamics.polished_frozen_deepslate": "Pizarra Congelada Profunda Pulida",
-  "block.thermodynamics.cryonite_ore": "Mena de Crionita",
-  "block.thermodynamics.cryo_casing": "Revestimiento de Crio",
 
   "fluid_type.thermodynamics.cryofluid_type": "Criofluido",
 

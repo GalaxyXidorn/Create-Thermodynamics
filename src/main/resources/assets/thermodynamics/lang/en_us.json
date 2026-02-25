@@ -1,16 +1,8 @@
 {
-  "item.thermodynamics.cryonite_crystal": "Cryonite Crystal",
-  "item.thermodynamics.cryodust": "Cryodust",
   "item.thermodynamics.cryofluid_bucket": "Bucket of Cryofluid",
   "item.thermodynamics.cryonite_alloy": "Cryonite Alloy",
 
   "block.thermodynamics.cryonite_block": "Block of Cryonite",
-  "block.thermodynamics.frozen_deepslate": "Frozen Deepslate",
-  "block.thermodynamics.cobbled_frozen_deepslate": "Cobbled Frozen Deepslate",
-  "block.thermodynamics.polished_frozen_deepslate": "Polished Frozen Deepslate",
-  "block.thermodynamics.cryonite_ore": "Cryonite Ore",
-  "block.thermodynamics.cryo_casing": "Cryo Casing",
-  "block.thermodynamics.breeze_freezer": "Breeze Freezer",
 
   "fluid_type.thermodynamics.cryofluid_type": "Cryofluid",
 

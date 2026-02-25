@@ -1,9 +1,5 @@
 {
   "values": [
-    "thermodynamics:cryonite_block",
-    "thermodynamics:cobbled_frozen_deepslate",
-    "thermodynamics:frozen_deepslate",
-    "thermodynamics:cryonite_ore",
-    "thermodynamics:polished_frozen_deepslate"
+    "thermodynamics:cryonite_block"
   ]
 }

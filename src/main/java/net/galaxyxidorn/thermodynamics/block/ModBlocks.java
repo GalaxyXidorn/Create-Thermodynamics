@@ -3,6 +3,7 @@ package net.galaxyxidorn.thermodynamics.block;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import net.galaxyxidorn.thermodynamics.Thermodynamics;
+import net.galaxyxidorn.thermodynamics.fluid.CryoFluidBlock;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluids;
 import net.galaxyxidorn.thermodynamics.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -24,23 +25,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
-    public static final DeferredBlock<Block> FROZEN_DEEPSLATE = registerBlock("frozen_deepslate",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE)));
-
-    public static final DeferredBlock<Block> COBBLED_FROZEN_DEEPSLATE = registerBlock("cobbled_frozen_deepslate",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COBBLED_DEEPSLATE)));
-
-    public static final DeferredBlock<Block> POLISHED_FROZEN_DEEPSLATE = registerBlock("polished_frozen_deepslate",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.POLISHED_DEEPSLATE)));
 
     //public static final DeferredBlock<CasingBlock> CRYO_CASING = registerBlock("cryo_casing",
     //        () -> new CasingBlock(BlockBehaviour.Properties.ofFullCopy(AllBlocks.ANDESITE_CASING.get())));
 
-    public static final DeferredBlock<DropExperienceBlock> CRYONITE_ORE = registerBlock("cryonite_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 3), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_DIAMOND_ORE)));
 
-    public static final DeferredBlock<LiquidBlock> CRYOFLUID = BLOCKS.register("thermodynamics",
-            () -> new LiquidBlock(ModFluids.CRYOFLUID.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noCollission().noLootTable()));
+
+    public static final DeferredBlock<LiquidBlock> CRYOFLUID = BLOCKS.register("cryofluid",
+            () -> new CryoFluidBlock(ModFluids.CRYOFLUID.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noCollission().noLootTable()));
 
 
 

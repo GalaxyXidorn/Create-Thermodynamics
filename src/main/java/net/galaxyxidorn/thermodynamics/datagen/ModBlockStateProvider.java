@@ -19,10 +19,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.CRYONITE_BLOCK);
-        blockWithItem(ModBlocks.FROZEN_DEEPSLATE);
-        blockWithItem(ModBlocks.COBBLED_FROZEN_DEEPSLATE);
-        blockWithItem(ModBlocks.CRYONITE_ORE);
-        blockWithItem(ModBlocks.POLISHED_FROZEN_DEEPSLATE);
         //connectedBlockWithItem(ModBlocks.CRYO_CASING, "cryo_casing");
     }
 

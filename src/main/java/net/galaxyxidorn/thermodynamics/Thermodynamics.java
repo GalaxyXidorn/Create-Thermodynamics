@@ -6,6 +6,14 @@ import net.galaxyxidorn.thermodynamics.fluid.ModFluidTypes;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluids;
 import net.galaxyxidorn.thermodynamics.item.ModCreativeModeTabs;
 import net.galaxyxidorn.thermodynamics.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluids;
+import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -54,14 +62,16 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CRYONITECRYSTAL);
-            event.accept(ModItems.CRYODUST);
+            //event.accept(ModItems.CRYONITECRYSTAL);
+            //event.accept(ModItems.CRYODUST);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.CRYONITE_BLOCK);
         }
     }
+
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
