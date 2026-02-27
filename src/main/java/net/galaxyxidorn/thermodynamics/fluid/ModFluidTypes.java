@@ -23,6 +23,38 @@ public class ModFluidTypes {
                     .canDrown(true)
                     .canHydrate(false)
                     .canExtinguish(true)));
+    public static final ResourceLocation MOLTEN_SULFUR = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_sulfur"),
+            MOLTEN_SULFUR_FLOWING = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_sulfur_flow");
+    public static final DeferredHolder<FluidType, FluidType> MOLTEN_SULFUR_TYPE = FLUID_TYPES.register("molten_sulfur_type",
+            () -> new FluidType(FluidType.Properties.create()
+                    .canSwim(false)
+                    .canDrown(true)
+                    .canHydrate(false)
+                    .canExtinguish(false)));
+    public static final ResourceLocation MOLTEN_SODIUM = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_sodium"),
+            MOLTEN_SODIUM_FLOWING = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_sodium_flow");
+    public static final DeferredHolder<FluidType, FluidType> MOLTEN_SODIUM_TYPE = FLUID_TYPES.register("molten_sodium_type",
+            () -> new FluidType(FluidType.Properties.create()
+                    .canSwim(false)
+                    .canDrown(true)
+                    .canHydrate(false)
+                    .canExtinguish(false)));
+    public static final ResourceLocation MOLTEN_NAPHTHALENE = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_naphthalene"),
+            MOLTEN_NAPHTHALENE_FLOWING = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/molten_naphthalene_flow");
+    public static final DeferredHolder<FluidType, FluidType> MOLTEN_NAPHTHALENE_TYPE = FLUID_TYPES.register("molten_naphthalene_type",
+            () -> new FluidType(FluidType.Properties.create()
+                    .canSwim(false)
+                    .canDrown(true)
+                    .canHydrate(false)
+                    .canExtinguish(false)));
+    public static final ResourceLocation COAL_TAR = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/coal_tar"),
+            COAL_TAR_FLOWING = ResourceLocation.fromNamespaceAndPath(MOD_ID, "fluid/coal_tar_flow");
+    public static final DeferredHolder<FluidType, FluidType> COAL_TAR_TYPE = FLUID_TYPES.register("coal_tar_type",
+            () -> new FluidType(FluidType.Properties.create()
+                    .canSwim(false)
+                    .canDrown(true)
+                    .canHydrate(false)
+                    .canExtinguish(true)));
 
     public static void register(IEventBus eventBus) {
         FLUID_TYPES.register(eventBus);
@@ -37,14 +69,58 @@ public class ModFluidTypes {
             }
 
             @Override
-            public @NotNull ResourceLocation getStillTexture() {
-                return CRYOFLUID;
+            public @NotNull ResourceLocation getStillTexture() {return CRYOFLUID;}
+
+            @Override
+            public @NotNull ResourceLocation getFlowingTexture() {return CRYOFLUID_FLOWING;}
+        }, CRYOFLUID_TYPE.get());
+        event.registerFluidType(new IClientFluidTypeExtensions() {
+            @Override
+            public int getTintColor() {
+                return 0xFFFFFFFF;
             }
 
             @Override
-            public @NotNull ResourceLocation getFlowingTexture() {
-                return CRYOFLUID_FLOWING;
+            public @NotNull ResourceLocation getStillTexture() {return MOLTEN_SULFUR;}
+
+            @Override
+            public @NotNull ResourceLocation getFlowingTexture() {return MOLTEN_SULFUR_FLOWING;}
+        }, MOLTEN_SULFUR_TYPE.get());
+        event.registerFluidType(new IClientFluidTypeExtensions() {
+            @Override
+            public int getTintColor() {
+                return 0xFFFFFFFF;
             }
-        }, CRYOFLUID_TYPE.get());
+
+            @Override
+            public @NotNull ResourceLocation getStillTexture() {return MOLTEN_SODIUM;}
+
+            @Override
+            public @NotNull ResourceLocation getFlowingTexture() {return MOLTEN_SODIUM_FLOWING;}
+        }, MOLTEN_SODIUM_TYPE.get());
+        event.registerFluidType(new IClientFluidTypeExtensions() {
+            @Override
+            public int getTintColor() {
+                return 0xFFFFFFFF;
+            }
+
+            @Override
+            public @NotNull ResourceLocation getStillTexture() {return MOLTEN_NAPHTHALENE;}
+
+            @Override
+            public @NotNull ResourceLocation getFlowingTexture() {return MOLTEN_NAPHTHALENE_FLOWING;}
+        }, MOLTEN_NAPHTHALENE_TYPE.get());
+        event.registerFluidType(new IClientFluidTypeExtensions() {
+            @Override
+            public int getTintColor() {
+                return 0xFFFFFFFF;
+            }
+
+            @Override
+            public @NotNull ResourceLocation getStillTexture() {return COAL_TAR;}
+
+            @Override
+            public @NotNull ResourceLocation getFlowingTexture() {return COAL_TAR_FLOWING;}
+        }, COAL_TAR_TYPE.get());
     }
 }

@@ -1,3 +1,7 @@
-// 1.21.1	2026-02-25T20:08:30.364067	Item Models: thermodynamics
+// 1.21.1	2026-02-27T19:31:20.6046831	Item Models: thermodynamics
+b5a48bce9c6ea3b769f5438356bf986bdd94ac93 assets/thermodynamics/models/item/coal_tar_bucket.json
 3ef2eca62e3b9c5138bbfb615cd95f13ad3c393a assets/thermodynamics/models/item/cryofluid_bucket.json
 bfb0f950c38f3b3661a40a799d8574dd0cd7ff19 assets/thermodynamics/models/item/cryonite_alloy.json
+17d992068371bf43cee21875e11b17f7c1c7bf19 assets/thermodynamics/models/item/molten_naphthalene_bucket.json
+0b84aeae88f2dda37d92acea4a35c81a7ed5c814 assets/thermodynamics/models/item/molten_sodium_bucket.json
+35d7b6138cbab3dbe04ab15f3efcdac9721eb05c assets/thermodynamics/models/item/molten_sulfur_bucket.json

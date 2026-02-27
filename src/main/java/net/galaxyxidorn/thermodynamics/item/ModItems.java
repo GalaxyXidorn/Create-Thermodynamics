@@ -17,6 +17,14 @@ public class ModItems {
             CRYONITE_ALLOY = simpleItem("cryonite_alloy");
     public static final DeferredItem<BucketItem> CRYOFLUID_BUCKET = ITEMS.register("cryofluid_bucket",
             () -> new BucketItem(ModFluids.CRYOFLUID.get(), new Item.Properties()));
+    public static final DeferredItem<BucketItem> MOLTEN_SULFUR_BUCKET = ITEMS.register("molten_sulfur_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_SULFUR.get(), new Item.Properties()));
+    public static final DeferredItem<BucketItem> MOLTEN_SODIUM_BUCKET = ITEMS.register("molten_sodium_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_SODIUM.get(), new Item.Properties()));
+    public static final DeferredItem<BucketItem> MOLTEN_NAPHTHALENE_BUCKET = ITEMS.register("molten_naphthalene_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_NAPHTHALENE.get(), new Item.Properties()));
+    public static final DeferredItem<BucketItem> COAL_TAR_BUCKET = ITEMS.register("coal_tar_bucket",
+            () -> new BucketItem(ModFluids.COAL_TAR.get(), new Item.Properties()));
     private static DeferredItem<Item> simpleItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
     }

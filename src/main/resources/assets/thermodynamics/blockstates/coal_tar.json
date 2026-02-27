@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "level=0": { "model": "thermodynamics:block/coal_tar" },
+    "level=1": { "model": "thermodynamics:block/coal_tar" },
+    "level=2": { "model": "thermodynamics:block/coal_tar" },
+    "level=3": { "model": "thermodynamics:block/coal_tar" },
+    "level=4": { "model": "thermodynamics:block/coal_tar" },
+    "level=5": { "model": "thermodynamics:block/coal_tar" },
+    "level=6": { "model": "thermodynamics:block/coal_tar" },
+    "level=7": { "model": "thermodynamics:block/coal_tar" },
+    "level=8": { "model": "thermodynamics:block/coal_tar" },
+    "level=9": { "model": "thermodynamics:block/coal_tar" },
+    "level=10": { "model": "thermodynamics:block/coal_tar" },
+    "level=11": { "model": "thermodynamics:block/coal_tar" },
+    "level=12": { "model": "thermodynamics:block/coal_tar" },
+    "level=13": { "model": "thermodynamics:block/coal_tar" },
+    "level=14": { "model": "thermodynamics:block/coal_tar" },
+    "level=15": { "model": "thermodynamics:block/coal_tar" }
+  }
+}

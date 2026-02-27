@@ -1,10 +1,18 @@
 {
   "item.thermodynamics.cryofluid_bucket": "Bucket of Cryofluid",
+  "item.thermodynamics.molten_sulfur_bucket": "Bucket of Molten Sulfur",
+  "item.thermodynamics.molten_sodium_bucket": "Bucket of Molten Sodium",
+  "item.thermodynamics.molten_naphthalene_bucket": "Bucket of Molten Naphthalene",
+  "item.thermodynamics.coal_tar_bucket": "Bucket of Coal Tar",
   "item.thermodynamics.cryonite_alloy": "Cryonite Alloy",
 
   "block.thermodynamics.cryonite_block": "Block of Cryonite",
 
   "fluid_type.thermodynamics.cryofluid_type": "Cryofluid",
+  "fluid_type.thermodynamics.molten_sulfur_type": "Molten Sulfur",
+  "fluid_type.thermodynamics.molten_sodium_type": "Molten Sodium",
+  "fluid_type.thermodynamics.molten_naphthalene_type": "Molten Naphthalene",
+  "fluid_type.thermodynamics.coal_tar_type": "Coal Tar",
 
-  "creativetab.thermodynamics.create_cryofluid": "Create: Cryofluid"
+  "creativetab.thermodynamics.create_thermodynamics": "Create: Thermodynamics"
 }

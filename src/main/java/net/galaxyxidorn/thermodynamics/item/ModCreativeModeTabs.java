@@ -19,12 +19,12 @@ import java.util.function.Supplier;
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Thermodynamics.MOD_ID);
-    private static final Set<DeferredBlock<? extends Block>> EXCLUDED_BLOCKS = Set.of(ModBlocks.CRYOFLUID);
+    private static final Set<DeferredBlock<? extends Block>> EXCLUDED_BLOCKS = Set.of(ModBlocks.CRYOFLUID,ModBlocks.MOLTEN_SULFUR,ModBlocks.MOLTEN_SODIUM,ModBlocks.MOLTEN_NAPHTHALENE,ModBlocks.COAL_TAR);
     private static final Set<DeferredItem<? extends Item>> EXCLUDED_ITEMS = Set.of();
 
-    public static final Supplier<CreativeModeTab> CREATE_THERMALEXPANSION_TAB = CREATE_MODE_TAB.register("create_thermalexpansion_tab",
+    public static final Supplier<CreativeModeTab> CREATE_THERMODYNAMICS_TAB = CREATE_MODE_TAB.register("create_thermodynamics_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRYONITE_ALLOY.get()))
-                    .title(Component.translatable("creativetab.thermodynamics.create_cryofluid"))
+                    .title(Component.translatable("creativetab.thermodynamics.create_thermodynamics"))
                     .displayItems((parameters, output) ->{
                         ModItems.ITEMS.getEntries().forEach(item -> {
                             if (!EXCLUDED_ITEMS.contains(item)) output.accept(item.get());

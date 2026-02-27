@@ -33,6 +33,14 @@ public class ModBlocks {
 
     public static final DeferredBlock<LiquidBlock> CRYOFLUID = BLOCKS.register("cryofluid",
             () -> new CryoFluidBlock(ModFluids.CRYOFLUID.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER).noCollission().noLootTable()));
+    public static final DeferredBlock<LiquidBlock> MOLTEN_SULFUR = BLOCKS.register("molten_sulfur",
+            () -> new LiquidBlock(ModFluids.MOLTEN_SULFUR.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA).noCollission().noLootTable()));
+    public static final DeferredBlock<LiquidBlock> MOLTEN_SODIUM = BLOCKS.register("molten_sodium",
+            () -> new LiquidBlock(ModFluids.MOLTEN_SODIUM.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA).noCollission().noLootTable()));
+    public static final DeferredBlock<LiquidBlock> MOLTEN_NAPHTHALENE = BLOCKS.register("molten_naphthalene",
+            () -> new LiquidBlock(ModFluids.MOLTEN_NAPHTHALENE.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA).noCollission().noLootTable()));
+    public static final DeferredBlock<LiquidBlock> COAL_TAR = BLOCKS.register("coal_tar",
+            () -> new LiquidBlock(ModFluids.COAL_TAR.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA).noCollission().noLootTable()));
 
 
 

@@ -7,6 +7,38 @@
     {
       "type": "single",
       "resource": "thermodynamics:fluid/cryofluid_flow"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_sulfur"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_sulfur_flow"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_sodium"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_sodium_flow"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_naphthalene"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/molten_naphthalene_flow"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/coal_tar"
+    },
+    {
+      "type": "single",
+      "resource": "thermodynamics:fluid/coal_tar_flow"
     }
   ]
 }

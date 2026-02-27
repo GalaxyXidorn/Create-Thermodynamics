@@ -17,6 +17,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         //basicItem(ModItems.CRYODUST.get());
         //basicItem(ModItems.CRYONITECRYSTAL.get());
         basicItem(ModItems.CRYOFLUID_BUCKET.get());
+        basicItem(ModItems.MOLTEN_SULFUR_BUCKET.get());
+        basicItem(ModItems.MOLTEN_SODIUM_BUCKET.get());
+        basicItem(ModItems.MOLTEN_NAPHTHALENE_BUCKET.get());
+        basicItem(ModItems.COAL_TAR_BUCKET.get());
         basicItem(ModItems.CRYONITE_ALLOY.get());
     }
 }

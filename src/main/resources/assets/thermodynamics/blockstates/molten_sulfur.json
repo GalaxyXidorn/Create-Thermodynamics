@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "level=0": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=1": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=2": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=3": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=4": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=5": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=6": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=7": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=8": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=9": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=10": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=11": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=12": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=13": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=14": { "model": "thermodynamics:block/molten_sulfur" },
+    "level=15": { "model": "thermodynamics:block/molten_sulfur" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "level=0": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=1": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=2": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=3": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=4": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=5": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=6": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=7": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=8": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=9": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=10": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=11": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=12": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=13": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=14": { "model": "thermodynamics:block/molten_naphthalene" },
+    "level=15": { "model": "thermodynamics:block/molten_naphthalene" }
+  }
+}
