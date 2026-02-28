@@ -5,8 +5,14 @@
   "item.thermodynamics.molten_naphthalene_bucket": "Bucket of Molten Naphthalene",
   "item.thermodynamics.coal_tar_bucket": "Bucket of Coal Tar",
   "item.thermodynamics.cryonite_alloy": "Cryonite Alloy",
+  "item.thermodynamics.salt": "Salt",
+  "item.thermodynamics.wick": "Wick",
+  "item.thermodynamics.sulfur": "Sulfur",
+  "item.thermodynamics.white_tar": "White Tar",
 
-  "block.thermodynamics.cryonite_block": "Block of Cryonite",
+  "block.thermodynamics.cryonite_block": "Block of Cryonite Alloy",
+  "block.thermodynamics.rock_salt": "Rock Salt",
+  "block.thermodynamics.sulfur_ore": "Sulfur Ore",
 
   "fluid_type.thermodynamics.cryofluid_type": "Cryofluid",
   "fluid_type.thermodynamics.molten_sulfur_type": "Molten Sulfur",

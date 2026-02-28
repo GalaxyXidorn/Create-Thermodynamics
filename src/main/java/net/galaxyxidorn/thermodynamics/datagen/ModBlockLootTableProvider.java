@@ -30,6 +30,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         //dropSelf(ModBlocks.CRYO_CASING.get());
         dropSelf(ModBlocks.CRYONITE_BLOCK.get());
+        //Change these to drop items
+        dropSelf(ModBlocks.SULFUR_ORE.get());
+        dropSelf(ModBlocks.ROCK_SALT.get());
 
     }
 

@@ -19,6 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.CRYONITE_BLOCK);
+        blockWithItem(ModBlocks.SULFUR_ORE);
+        blockWithItem(ModBlocks.ROCK_SALT);
         //connectedBlockWithItem(ModBlocks.CRYO_CASING, "cryo_casing");
     }
 

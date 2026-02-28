@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thermodynamics:block/rock_salt"
+    }
+  }
+}

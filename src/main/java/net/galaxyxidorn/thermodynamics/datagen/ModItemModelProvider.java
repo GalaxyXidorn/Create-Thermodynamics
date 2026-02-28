@@ -22,5 +22,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MOLTEN_NAPHTHALENE_BUCKET.get());
         basicItem(ModItems.COAL_TAR_BUCKET.get());
         basicItem(ModItems.CRYONITE_ALLOY.get());
+        basicItem(ModItems.SALT.get());
+        basicItem(ModItems.WICK.get());
+        basicItem(ModItems.WHITE_TAR.get());
+        basicItem(ModItems.SULFUR.get());
     }
 }

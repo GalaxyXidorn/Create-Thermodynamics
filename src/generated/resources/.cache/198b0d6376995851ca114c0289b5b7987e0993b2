@@ -1,4 +1,10 @@
-// 1.21.1	2026-02-25T20:05:20.9989516	Block States: thermodynamics
+// 1.21.1	2026-02-27T21:52:27.2475646	Block States: thermodynamics
 f90039b20ce29014235560733a8062a368152acc assets/thermodynamics/blockstates/cryonite_block.json
+ad61cb1c55cce3b6c40ef23643417f88b16b2b4d assets/thermodynamics/blockstates/rock_salt.json
+f5fcb8ca7087768ff616dd42cf6ccbc0de3dea60 assets/thermodynamics/blockstates/sulfur_ore.json
 5aeb5c406857f4d55b4ba1cb52d5ca2a4bd94ac5 assets/thermodynamics/models/block/cryonite_block.json
+d5df33febaff6353871d0c6dce8bd1bda0236065 assets/thermodynamics/models/block/rock_salt.json
+7e2f2cb5b396a5f4c51b8144213ad18a2cea0332 assets/thermodynamics/models/block/sulfur_ore.json
 0ae62b27f2675f9c633adb9f3c07bb59c2556dda assets/thermodynamics/models/item/cryonite_block.json
+81f75b21a37aceb585842e88bcb41f76c2e6769b assets/thermodynamics/models/item/rock_salt.json
+c4bbed1cbde352b5f38af47138f27b5e4c3bf557 assets/thermodynamics/models/item/sulfur_ore.json

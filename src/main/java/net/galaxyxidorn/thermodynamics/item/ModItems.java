@@ -14,7 +14,14 @@ public class ModItems {
     public static final DeferredItem<Item>
             //CRYONITECRYSTAL = simpleItem("cryonite_crystal"),
             //CRYODUST = simpleItem("cryodust"),
-            CRYONITE_ALLOY = simpleItem("cryonite_alloy");
+            CRYONITE_ALLOY = simpleItem("cryonite_alloy"),
+            SALT = simpleItem("salt"),
+            WHITE_TAR = simpleItem("white_tar"),
+            SULFUR = simpleItem("sulfur"),
+            WICK = simpleItem("wick");
+
+
+
     public static final DeferredItem<BucketItem> CRYOFLUID_BUCKET = ITEMS.register("cryofluid_bucket",
             () -> new BucketItem(ModFluids.CRYOFLUID.get(), new Item.Properties()));
     public static final DeferredItem<BucketItem> MOLTEN_SULFUR_BUCKET = ITEMS.register("molten_sulfur_bucket",

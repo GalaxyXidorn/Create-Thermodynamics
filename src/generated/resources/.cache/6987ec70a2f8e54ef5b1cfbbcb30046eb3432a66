@@ -1,7 +1,11 @@
-// 1.21.1	2026-02-27T19:31:20.6046831	Item Models: thermodynamics
+// 1.21.1	2026-02-27T21:39:11.3650824	Item Models: thermodynamics
 b5a48bce9c6ea3b769f5438356bf986bdd94ac93 assets/thermodynamics/models/item/coal_tar_bucket.json
 3ef2eca62e3b9c5138bbfb615cd95f13ad3c393a assets/thermodynamics/models/item/cryofluid_bucket.json
 bfb0f950c38f3b3661a40a799d8574dd0cd7ff19 assets/thermodynamics/models/item/cryonite_alloy.json
 17d992068371bf43cee21875e11b17f7c1c7bf19 assets/thermodynamics/models/item/molten_naphthalene_bucket.json
 0b84aeae88f2dda37d92acea4a35c81a7ed5c814 assets/thermodynamics/models/item/molten_sodium_bucket.json
 35d7b6138cbab3dbe04ab15f3efcdac9721eb05c assets/thermodynamics/models/item/molten_sulfur_bucket.json
+544c8c9594d0f7dbf6a010f00fa806844be9a9b9 assets/thermodynamics/models/item/salt.json
+f76b9827f2a2e2fea9e402489d9a9c43f21e72ac assets/thermodynamics/models/item/sulfur.json
+224e539aa63f59c71b3d778ac825778111b6418e assets/thermodynamics/models/item/white_tar.json
+fec295e331e1afe9ee0f8a381461fa0536949c54 assets/thermodynamics/models/item/wick.json

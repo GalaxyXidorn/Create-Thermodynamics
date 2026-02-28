@@ -34,6 +34,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 //.add(ModBlocks.CRYONITE_ORE.get())
                 .add(ModBlocks.CRYONITE_BLOCK.get());
 
+
        // TagKey<Block> CASING = TagKey.create(Registries.BLOCK, Create.asResource("casing"));
        // tag(CASING).add(ModBlocks.CRYO_CASING.get());
     }

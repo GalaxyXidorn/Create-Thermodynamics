@@ -1,2 +1,4 @@
-// 1.21.1	2026-02-25T20:05:21.0009814	Loot Tables
+// 1.21.1	2026-02-27T21:52:27.2498863	Loot Tables
 08b0925650a23def50dbbe7eb206e53d364b5780 data/thermodynamics/loot_table/blocks/cryonite_block.json
+351c1e8ab63ad1b74c714dff8c41b3068c23841b data/thermodynamics/loot_table/blocks/rock_salt.json
+b336668f52ad73905a62fddf9e43f0d44c225875 data/thermodynamics/loot_table/blocks/sulfur_ore.json
