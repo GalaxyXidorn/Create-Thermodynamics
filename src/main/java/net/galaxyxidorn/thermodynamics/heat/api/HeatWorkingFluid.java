@@ -22,7 +22,7 @@ public class HeatWorkingFluid {
     public int getMaxTemp() {
         return maxTemp;
     }
-    public boolean isValidTemperatur(int temp) {
+    public boolean isValidTemperature(int temp) {
         return temp >= minTemp && temp <= maxTemp;
     }
 }

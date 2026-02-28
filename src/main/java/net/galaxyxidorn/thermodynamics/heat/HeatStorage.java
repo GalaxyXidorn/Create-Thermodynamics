@@ -42,6 +42,7 @@ public class HeatStorage {
         return fluid.isValidTemperature(heat);
     }
 
+
     public boolean isAtMin() {
         return heat <= fluid.getMinTemp();
     }

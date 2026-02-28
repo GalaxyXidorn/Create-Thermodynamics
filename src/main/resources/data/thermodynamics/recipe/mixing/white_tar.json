@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "thermodynamics:coal_tar",
+      "type": "fluid_stack",
+      "amount": 100
+    },
+    {
+      "item": "create:filter",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "thermodynamics:white_tar",
+      "count": 2,
+      "amount": 1
+    }
+  ]
+}
