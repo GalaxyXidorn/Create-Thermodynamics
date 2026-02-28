@@ -4,6 +4,7 @@ import net.galaxyxidorn.thermodynamics.block.ModBlocks;
 import net.galaxyxidorn.thermodynamics.component.ModDataComponents;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluidTypes;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluids;
+import net.galaxyxidorn.thermodynamics.heat.registry.ModHeatFluids;
 import net.galaxyxidorn.thermodynamics.item.ModCreativeModeTabs;
 import net.galaxyxidorn.thermodynamics.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -44,6 +45,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModHeatFluids.register();
         ModDataComponents.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
@@ -87,4 +89,5 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
         }
     }
+
 }
