@@ -20,7 +20,7 @@ public class ModHeatFluids {
         );
         WATER = HeatFluidRegistry.register(
                 new HeatWorkingFluid(
-                        "molten_naphthalene",
+                        "water",
                         0,
                         250,
                         5
