@@ -1,5 +1,6 @@
 package net.galaxyxidorn.thermodynamics;
 
+import net.galaxyxidorn.thermodynamics.block.ModBlockEntities;
 import net.galaxyxidorn.thermodynamics.block.ModBlocks;
 import net.galaxyxidorn.thermodynamics.component.ModDataComponents;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluidTypes;
@@ -45,6 +46,8 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
         ModCreativeModeTabs.register(modEventBus);
 
+
+        ModBlockEntities.register(modEventBus);
         ModHeatFluids.register();
         ModDataComponents.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -89,5 +92,6 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
         }
     }
+
 
 }
