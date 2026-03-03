@@ -5,6 +5,8 @@ import net.galaxyxidorn.thermodynamics.block.ModBlocks;
 import net.galaxyxidorn.thermodynamics.component.ModDataComponents;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluidTypes;
 import net.galaxyxidorn.thermodynamics.fluid.ModFluids;
+import net.galaxyxidorn.thermodynamics.heat.HeatSource;
+import net.galaxyxidorn.thermodynamics.heat.HeatSourceRegistry;
 import net.galaxyxidorn.thermodynamics.heat.registry.ModHeatFluids;
 import net.galaxyxidorn.thermodynamics.item.ModCreativeModeTabs;
 import net.galaxyxidorn.thermodynamics.item.ModItems;
@@ -13,6 +15,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.neoforged.neoforge.event.tick.EntityTickEvent;
@@ -55,6 +58,63 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
 
+        HeatSourceRegistry.register(
+                Blocks.LAVA, new HeatSource(1000)
+        );
+        HeatSourceRegistry.register(
+                Blocks.MAGMA_BLOCK, new HeatSource(900)
+        );
+        HeatSourceRegistry.register(
+                Blocks.FIRE, new HeatSource(800)
+        );
+        HeatSourceRegistry.register(
+                Blocks.SOUL_FIRE, new HeatSource(850)
+        );
+        HeatSourceRegistry.register(
+                Blocks.CAMPFIRE, new HeatSource(700)
+        );
+        HeatSourceRegistry.register(
+                Blocks.SOUL_CAMPFIRE, new HeatSource(750)
+        );
+        HeatSourceRegistry.register(
+                Blocks.ICE, new HeatSource(-20)
+        );
+        HeatSourceRegistry.register(
+                Blocks.PACKED_ICE, new HeatSource(-40)
+        );
+        HeatSourceRegistry.register(
+                Blocks.BLUE_ICE, new HeatSource(-60)
+        );
+        HeatSourceRegistry.register(
+                Blocks.LANTERN, new HeatSource(200)
+        );
+        HeatSourceRegistry.register(
+                Blocks.SOUL_LANTERN, new HeatSource(250)
+        );
+        HeatSourceRegistry.register(
+                Blocks.TORCH, new HeatSource(300)
+        );
+        HeatSourceRegistry.register(
+                Blocks.SOUL_TORCH, new HeatSource(350)
+        );
+        HeatSourceRegistry.register(
+                Blocks.GLOWSTONE, new HeatSource(450)
+        );
+        HeatSourceRegistry.register(
+            Blocks.SEA_LANTERN, new HeatSource(400)
+        );
+        HeatSourceRegistry.register(
+                Blocks.OCHRE_FROGLIGHT, new HeatSource(400)
+        );
+        HeatSourceRegistry.register(
+                Blocks.VERDANT_FROGLIGHT, new HeatSource(400)
+        );
+        HeatSourceRegistry.register(
+                Blocks.PEARLESCENT_FROGLIGHT, new HeatSource(400)
+        );
+        HeatSourceRegistry.register(
+                Blocks.JACK_O_LANTERN, new HeatSource(150)
+        );
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
