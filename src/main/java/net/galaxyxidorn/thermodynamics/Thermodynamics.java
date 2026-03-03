@@ -59,62 +59,39 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
         ModFluidTypes.register(modEventBus);
 
         HeatSourceRegistry.register(
-                Blocks.LAVA, new HeatSource(1000)
+                Blocks.LAVA, new HeatSource(900)
         );
         HeatSourceRegistry.register(
-                Blocks.MAGMA_BLOCK, new HeatSource(900)
+                Blocks.MAGMA_BLOCK, new HeatSource(800)
         );
         HeatSourceRegistry.register(
-                Blocks.FIRE, new HeatSource(800)
+                Blocks.FIRE, new HeatSource(600)
         );
         HeatSourceRegistry.register(
-                Blocks.SOUL_FIRE, new HeatSource(850)
+                Blocks.SOUL_FIRE, new HeatSource(650)
         );
         HeatSourceRegistry.register(
-                Blocks.CAMPFIRE, new HeatSource(700)
+                Blocks.CAMPFIRE, new HeatSource(500)
         );
         HeatSourceRegistry.register(
-                Blocks.SOUL_CAMPFIRE, new HeatSource(750)
+                Blocks.SOUL_CAMPFIRE, new HeatSource(550)
         );
         HeatSourceRegistry.register(
-                Blocks.ICE, new HeatSource(-20)
+                Blocks.ICE, new HeatSource(0)
         );
         HeatSourceRegistry.register(
-                Blocks.PACKED_ICE, new HeatSource(-40)
+                Blocks.PACKED_ICE, new HeatSource(-20)
         );
         HeatSourceRegistry.register(
-                Blocks.BLUE_ICE, new HeatSource(-60)
+                Blocks.BLUE_ICE, new HeatSource(-40)
         );
         HeatSourceRegistry.register(
-                Blocks.LANTERN, new HeatSource(200)
+                Blocks.SNOW_BLOCK, new HeatSource(-20)
         );
         HeatSourceRegistry.register(
-                Blocks.SOUL_LANTERN, new HeatSource(250)
+                Blocks.POWDER_SNOW, new HeatSource(-20)
         );
-        HeatSourceRegistry.register(
-                Blocks.TORCH, new HeatSource(300)
-        );
-        HeatSourceRegistry.register(
-                Blocks.SOUL_TORCH, new HeatSource(350)
-        );
-        HeatSourceRegistry.register(
-                Blocks.GLOWSTONE, new HeatSource(450)
-        );
-        HeatSourceRegistry.register(
-            Blocks.SEA_LANTERN, new HeatSource(400)
-        );
-        HeatSourceRegistry.register(
-                Blocks.OCHRE_FROGLIGHT, new HeatSource(400)
-        );
-        HeatSourceRegistry.register(
-                Blocks.VERDANT_FROGLIGHT, new HeatSource(400)
-        );
-        HeatSourceRegistry.register(
-                Blocks.PEARLESCENT_FROGLIGHT, new HeatSource(400)
-        );
-        HeatSourceRegistry.register(
-                Blocks.JACK_O_LANTERN, new HeatSource(150)
-        );
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
